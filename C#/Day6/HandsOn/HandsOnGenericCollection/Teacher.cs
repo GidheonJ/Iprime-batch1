@@ -18,6 +18,7 @@ namespace HandsOnGenericCollection
     {
         void AddTeacher(Teacher teacher);
         Teacher GetTeacher(int id);
+
         List<Teacher> GetTeachers();
         List<Teacher> GetTeachersBySchool(string school);
         void UpdateTeacher(Teacher teacher);
